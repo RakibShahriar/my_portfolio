@@ -870,6 +870,10 @@ html, body {
   border-left-color: var(--accent-emerald);
 }
 
+.timeline-item:nth-child(5) {
+  border-left-color: #f59e0b;
+}
+
 .timeline-header {
   margin-bottom: 20px;
 }
@@ -889,6 +893,11 @@ html, body {
 .role-badge.hw {
   color: #22d3ee;
   background: rgba(6, 182, 212, 0.2);
+}
+
+.role-badge.ai {
+  color: #c084fc;
+  background: rgba(168, 85, 247, 0.2);
 }
 
 .role-title {
