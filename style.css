@@ -801,7 +801,7 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  max-width: 380px;
+  max-width: 460px;
 }
 
 .tech-tag {
@@ -966,7 +966,7 @@ html, body {
 
 .contact-info-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   gap: 16px;
 }
 
